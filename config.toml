@@ -7,7 +7,7 @@ theme = "hugo-cactus-theme"
 googleAnalytics = ""
 # Disable comments by leaving disqusShortname empty
 disqusShortname = ""
-publishDir = "../netfilysite"
+publishDir = "public"
 
 [params]
 	name = "Gwendolyn Reynolds"
