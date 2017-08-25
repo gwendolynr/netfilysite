@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://gwendolyn.netlify.com/"
+baseurl = "https://gwendolynr.com/"
 languageCode = "en-us"
 title = "Gwen's Data Science Blog"
 theme = "hugo-cactus-theme"
