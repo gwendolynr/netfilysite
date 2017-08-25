@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R Markdown on Gwen&#39;s Data Science Blog</title>
-    <link>/tags/r-markdown/</link>
+    <link>https://gwendolynr.com/tags/r-markdown/</link>
     <description>Recent content in R Markdown on Gwen&#39;s Data Science Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 28 Jul 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/r-markdown/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://gwendolynr.com/tags/r-markdown/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Mapping Census Data (ACS) Tutorial</title>
-      <link>/post/mapping-census-data-acs-tutorial/</link>
+      <link>https://gwendolynr.com/post/mapping-census-data-acs-tutorial/</link>
       <pubDate>Fri, 28 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/mapping-census-data-acs-tutorial/</guid>
+      <guid>https://gwendolynr.com/post/mapping-census-data-acs-tutorial/</guid>
       <description>Mapping ACS Data Leaflet is one of my favorite packages. The color choice brings me an unreasonable amount of joy, as do the slightly translucent city and street names. It’s a gorgeous design that makes maps look sleek and modern. So when my colleague, Jon Zadra, decided to map out preschool aged children for a project we are working on in Oregon, I got really excited.</description>
     </item>
     
