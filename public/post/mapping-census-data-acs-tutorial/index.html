@@ -143,11 +143,9 @@ library(tidyr)
 counties &lt;- c(001, 003, 005, 007, 009, 011, 013, 015, 017, 019, 021, 023, 025, 027, 029, 031, 033, 035, 037, 039, 041, 043, 045, 047, 049, 051, 053, 055, 057)
 tracts &lt;- tracts(state = &#39;UT&#39;, county = c(001, 003, 005, 007, 009, 011, 013, 015, 017, 019, 021, 023, 025, 027, 029, 031, 033, 035, 037, 039, 041, 043, 045, 047, 049, 051, 053, 055, 057), cb=TRUE)
 
-## You will need to get an api key from the Census Website. You can request a key here: http://api.census.gov/data/key_signup.html. They will send you an email with an api key. The code below takes the key and sends it to the Census so you can access their tables.
-
-api.key.install(key=&quot;0cdac4dbbd32b4e4874b79ce6e8fee07d12a7b3a&quot;)
-
-## We now need to create a geographic data set (a spatial data set) so you can grab the tigris and acs data. I specify the state, I specify the counties (using the FIPS numbers I looked up). See how tract has a &quot;*&quot;? That&#39;s because we are telling tigris to grab every tract within all of the counties listed. 
+## You will need to get an api key from the Census Website. You can request a key here: http://api.census.gov/data/key_signup.html. They will send you an email with an api key. The code below takes the key and sends it to the Census so you can access their tables.</code></pre>
+<p>api.key.install(key=“getyourown”)</p>
+<pre class="r"><code>## We now need to create a geographic data set (a spatial data set) so you can grab the tigris and acs data. I specify the state, I specify the counties (using the FIPS numbers I looked up). See how tract has a &quot;*&quot;? That&#39;s because we are telling tigris to grab every tract within all of the counties listed. 
 
 geo &lt;- geo.make(state=c(&quot;UT&quot;), 
                 county=c(001, 003, 005, 007, 009, 011, 013, 015, 017, 019, 021, 023, 025, 027, 029, 031, 033, 035, 037, 039, 041, 043, 045, 047, 049, 051, 053, 055, 057), tract=&quot;*&quot;) 

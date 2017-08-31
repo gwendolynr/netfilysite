@@ -44,9 +44,16 @@ counties <- c(001, 003, 005, 007, 009, 011, 013, 015, 017, 019, 021, 023, 025, 0
 tracts <- tracts(state = 'UT', county = c(001, 003, 005, 007, 009, 011, 013, 015, 017, 019, 021, 023, 025, 027, 029, 031, 033, 035, 037, 039, 041, 043, 045, 047, 049, 051, 053, 055, 057), cb=TRUE)
 
 ## You will need to get an api key from the Census Website. You can request a key here: http://api.census.gov/data/key_signup.html. They will send you an email with an api key. The code below takes the key and sends it to the Census so you can access their tables.
+```
 
+api.key.install(key="getyourown")
+
+```{r api key, include=FALSE}
 api.key.install(key="0cdac4dbbd32b4e4874b79ce6e8fee07d12a7b3a")
 
+```
+
+```{r setup, message=FALSE, warning=FALSE }
 ## We now need to create a geographic data set (a spatial data set) so you can grab the tigris and acs data. I specify the state, I specify the counties (using the FIPS numbers I looked up). See how tract has a "*"? That's because we are telling tigris to grab every tract within all of the counties listed. 
 
 geo <- geo.make(state=c("UT"), 
