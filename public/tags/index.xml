@@ -1,58 +1,59 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Gwen&#39;s Data Science Blog</title>
-    <link>https://gwendolynr.com/tags/</link>
-    <description>Recent content in Tags on Gwen&#39;s Data Science Blog</description>
+    <title>Tags on Gwendolyn Reynolds</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Gwendolyn Reynolds</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0700</lastBuildDate>
     
-	<atom:link href="https://gwendolynr.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Content tagged as &#39;Academic&#39;</title>
+      <link>/tags/academic/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 -0700</pubDate>
+      
+      <guid>/tags/academic/</guid>
+      <description>Here is a list of all the content that has been tagged as academic.</description>
+    </item>
+    
+    <item>
       <title>Acs</title>
-      <link>https://gwendolynr.com/tags/acs/</link>
+      <link>/tags/acs/</link>
       <pubDate>Fri, 28 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://gwendolynr.com/tags/acs/</guid>
+      <guid>/tags/acs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Demo</title>
+      <link>/tags/demo/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 -0600</pubDate>
+      
+      <guid>/tags/demo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Leaflet</title>
-      <link>https://gwendolynr.com/tags/leaflet/</link>
+      <link>/tags/leaflet/</link>
       <pubDate>Fri, 28 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://gwendolynr.com/tags/leaflet/</guid>
+      <guid>/tags/leaflet/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Mapping</title>
-      <link>https://gwendolynr.com/tags/mapping/</link>
+      <title>Maps</title>
+      <link>/tags/maps/</link>
       <pubDate>Fri, 28 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://gwendolynr.com/tags/mapping/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R Markdown</title>
-      <link>https://gwendolynr.com/tags/r-markdown/</link>
-      <pubDate>Fri, 28 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://gwendolynr.com/tags/r-markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>School Districts</title>
-      <link>https://gwendolynr.com/tags/school-districts/</link>
-      <pubDate>Fri, 28 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://gwendolynr.com/tags/school-districts/</guid>
+      <guid>/tags/maps/</guid>
       <description></description>
     </item>
     
